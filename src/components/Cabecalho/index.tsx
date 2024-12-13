@@ -3,10 +3,10 @@ import logo from './assets/logo.png';
 import perfil from './assets/perfil.png';
 
 const CabecalhoEstilizado = styled.header`
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2em 4em
+    display:flex; //para colocar um elemento do lado do outro
+    align-items: center; //alinhar os elementos pelo centro
+    justify-content: space-between; //espaçamento igual entre os elementos
+    padding: 2em 4em //espaço entre os elementos e a janela
 `
 
 const Container = styled.div`
@@ -17,8 +17,8 @@ const Container = styled.div`
 `
 
 const LinkEstilizado = styled.a`
- color: var(--azul-escuro);
- font-weight: 700;
+    color: var(--azul-escuro);
+    font-weight: 700;
 `
 
 function Cabecalho() {
